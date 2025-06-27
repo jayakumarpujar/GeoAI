@@ -1,0 +1,6 @@
+#hyperparameters
+learning_rate = 0.001   
+batch_size = 16
+num_epochs = 10
+input_raster = 'input_raster.tif'
+input_mask= 'input_mask.tif'
