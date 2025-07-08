@@ -1,6 +1,27 @@
-#hyperparameters
-learning_rate = 0.001   
-batch_size = 16
-num_epochs = 10
-input_raster = 'input_raster.tif'
-input_mask= 'input_mask.tif'
+﻿# ========== Paths ==========
+train_raster: "/home/usd.local/jayakumar.pujar/john_lab/shared/Jay/train_23_8int.tif"         # Input image raster (original)
+mask_raster: "/home/usd.local/jayakumar.pujar/john_lab/shared/Jay/train_23_mask.tif"          # Ground truth mask raster
+train_albers: "./train_albers.tif"          # Output reprojected image
+mask_albers: "./mask_albers.tif"            # Output reprojected mask
+output_dir: "./model_output"                # Where to save checkpoints and logs
+
+# ========== Model Training ==========
+num_channels: 4                            # e.g. RGB → 3 bands
+batch_size: 4
+num_epochs: 1
+learning_rate: 0.001
+val_split: 0.2                              # 20% validation split
+seed: 42
+
+# ========== Tiling ==========
+tile_size: 512
+overlap: 128                                # or stride = tile_size - overlap
+
+# ========== Pretraining / Resume ==========
+pretrained: true
+pretrained_model_path: null                 # Set to a .pth file if resuming
+resume_training: false                      # true if resuming from checkpoint
+
+# ========== Logging / Debug ==========
+visualize: false                            # true = visualize predictions during training
+print_freq: 10                              # log every N batches
