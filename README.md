@@ -32,6 +32,8 @@ Transfer learning utilities for fine-tuning models with your own data
 Multi-temporal classification support for change detection
 Accuracy assessment and validation tools
 
+![Train_data](Russian_olive_traindata.png)
+
 # Additional Capabilities
 Terrain analysis with AI-enhanced feature extraction
 Point cloud classification and segmentation
