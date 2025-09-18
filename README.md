@@ -3,6 +3,8 @@ Conducted advanced geospatial data analysis using NAIP/NASA imagery for flood de
 
 Integrating Artificial Intelligence with geospatial data training, data analysis and visualization
 
+![Training data](image.jpg)
+
 # Advanced Geospatial Data Visualization
 Interactive multi-layer visualization of vector, raster, and point cloud data
 Customizable styling and symbology
