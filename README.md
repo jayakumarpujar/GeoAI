@@ -17,7 +17,9 @@ Automated generation of training datasets with image chips and corresponding lab
 Vector-to-raster and raster-to-vector conversion utilities optimized for AI workflows
 Data augmentation techniques specific to geospatial data
 Support for integrating Overture Maps data and other open datasets for training and validation
-![Mask_data](mask_img.png)
+
+![Mask_data](img_mask.png)
+
 # Image Segmentation
 Integration with Meta's Segment Anything Model (SAM) for automatic feature extraction
 Specialized segmentation algorithms optimized for satellite and aerial imagery
